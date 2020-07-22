@@ -1,4 +1,4 @@
 discord.py
-urllib
+urllib.request
 re
 os
