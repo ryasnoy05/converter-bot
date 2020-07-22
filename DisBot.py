@@ -59,3 +59,4 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound ):
         await ctx.send(embed = discord.Embed(description = f'** {ctx.author.name}, данной команды не существует. \n Список команд:\nv.Dollar\nv.Euro\nv.Pound\nv.Bitcoin\nv.Franc\nv.Canadian\nv.Australian\nv.Turkish\nv.Singapore\nv.Ukrainian\nv.Danish\nv.Norwegian\nv.Swedish\nv.Yuan\nv.Ethereum\nv.Litecoin**', color=0x0c0c0c))
 token = os.environ.get('BOT_TOKEN')
+bot.run(str(token))
