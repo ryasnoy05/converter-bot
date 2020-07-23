@@ -8,7 +8,7 @@ async def Bitcoin(ctx):
 	await ctx.send(embed = discord.Embed(description = f'**1 биткоин = {BTC.group(0)} рублей**', color=0x0c0c0c))#await ctx.send(f"1 биткоин = {BTC.group(0)} рублей")
 @bot.command()
 async def Dollar(ctx):
-	await ctx.send(embed = discord.Embed(description = f'**1 доллар = {USD} рубл**', color=0x0c0c0c))#await ctx.send(f"1 доллар = {USD} рублей")
+	await ctx.send(embed = discord.Embed(description = f'**1 доллар = {USD} рублей**', color=0x0c0c0c))#await ctx.send(f"1 доллар = {USD} рублей")
 @bot.command()
 async def Euro(ctx):
 	await ctx.send(embed = discord.Embed(description = f'**1 евро = {EUR} рублей**', color=0x0c0c0c))#await ctx.send(f"1 евро = {EUR} рублей")
